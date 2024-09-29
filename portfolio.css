@@ -1,0 +1,244 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+section{
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.row-1{
+    background-image: url(saiteja.JPG);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+}
+.row-1 header{
+    position: sticky;
+    top: 0;
+}
+li a:hover{
+    text-shadow: 1px 1px 50px rgb(255, 255, 255);
+}
+
+#name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.hello,.caption{
+    font-size: 50px;
+    font-family: "Merriweather";
+    text-shadow: 2px 2px 10px white,-2px -2px 10px white;
+    
+}
+.bhanu{
+    font-size: 80px;
+    font-family: Poppins;
+    text-shadow: 2px 2px 10px white,-2px -2px 10px white;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.row-2,.row-3{
+    height: 1000px;
+    background-color:rgb(34, 34, 34);
+    overflow: hidden;
+}
+
+#port{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 30px;
+}
+#port span{
+    font-weight: 900;
+}
+#port-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 35px;
+
+}
+#port-nav a{
+    text-decoration: none;
+}
+.nav-tabs .nav-link {
+    background-color: transparent;
+    border: none;
+    color: #ffffff; 
+    padding: 0; 
+    margin: 0; 
+  }
+
+  .nav-tabs .nav-link.active {
+    background-color: transparent;
+    border-bottom: 2px solid #ffffff; 
+    color: #ffffff; 
+  }
+
+  .nav-tabs .nav-link:hover {
+    background-color: transparent; 
+    color: #f8f9fa; 
+    text-shadow: 1px 1px 5px white;
+  }
+
+  .nav-tabs {
+    border-bottom: 0; 
+  }
+
+video source{
+    border-radius: 10px;
+}
+
+.resume{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 33px;
+}
+.resume span{
+    margin-left: 10px;
+    font-weight: bold;
+}
+#ed-1{
+    background-color: rgb(51, 51, 51);
+    font-family: Poppins;
+    text-align: justify;
+}
+.card-title{
+    font-size: 20px;
+    color: #b74b4b;
+    text-shadow: 2px 2px 5px #b74b4b;
+    text-align: initial;
+    
+}
+.intern{
+text-align: justify;
+}
+#ed-1:hover{
+    background-color: rgb(70, 70, 70);
+    cursor: pointer;
+}
+li:hover{
+    cursor: pointer;
+}
+
+.row-4{
+    height: 700px;
+    background-color:rgb(34, 34, 34);
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.row-4 img{
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(209, 207, 207, 0.404);
+}
+.aboutme{
+    text-align: justify;
+    margin-left: -20px;
+}
+.fw-bold{
+    color: #b74b4b;
+    text-shadow: 1px 1px 20px #b74b4b,-1px -1px 20px #b74b4b;
+}
+#hireme{
+    background-color: #b74b4b;
+}
+#hireme:hover,#send:hover{
+    background-color: #c46767;
+    box-shadow: 2px 2px 50px #ff1414;
+
+}
+.row-5{
+    height: 700px;
+    background-color:rgb(34, 34, 34);
+}
+.card{
+    
+    background-color:rgb(34, 34, 34);
+    font-family: Merriweather;
+}
+.card1-p,.card2-p,.card3-p{
+    text-align: justify;
+    color: gray;
+}
+#card-1,#card-2,#card-3{
+    background-color: rgb(51, 51, 51);
+}
+#card-1:hover,#card-2:hover,#card-3:hover{
+    background-color: rgb(78, 78, 78);
+    color: rgb(163, 163, 163);
+}
+#card3-foot{
+    margin-top: 140px;
+}
+.row-6{
+    height: 700px;
+    background-color:rgb(34, 34, 34);
+}
+form div{
+    margin-bottom: 30px;
+}
+input[type="text"],input[type="mail"],input[type="number"],textarea[placeholder="Write a Message"]{
+    background-color: rgb(78, 78, 78);
+    height: 50px;
+}
+div a{
+    text-decoration: none;
+    color: rgb(166, 165, 165);
+}
+#send{
+    background-color: #c22929;
+    box-shadow: 2px 2px 30px #e80808;
+}
+#send:hover{
+ 
+    background-color: #e33838;  
+    
+    box-shadow: 2px 2px 50px #ca0707; 
+}
+.row-7{
+    height: 180px;
+    background-color:rgb(34, 34, 34);
+}
+#sai{
+    color: red;
+}
+.row-7 div{
+    letter-spacing: 2px;
+}
+.bi-instagram{
+    display: inline-block;
+}
+.bi-linkedin,.bi-twitter-x,.bi-instagram,.bi-github{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(218, 38, 38);
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    box-shadow: 2px 2px 25px #c50505; 
+}
+.bi-linkedin:hover,.bi-twitter-x:hover,.bi-instagram:hover,.bi-github:hover{
+    box-shadow: 2px 2px 50px #f10303;
+    cursor: pointer;
+
+}
+footer{
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+
+
