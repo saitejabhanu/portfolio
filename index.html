@@ -1,108 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhanu Sai Teja</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preload" href="../images/bhanu2.jpeg" as="image">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css"/>
-</head>
 
-<body class="container-fluid">
-    <section>
-        <main class="row-1">
-            <header>
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container-fluid p-4">
-                        <button class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#menu">
-                            <span class="navbar-toggler-icon text-light"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="menu">
-                            <ul class="navbar-nav mx-auto">
-                                <li class="mx-5 nav-item">
-                                    <a class="nav-link text-white" href="#">HOME</a>
-                                </li>
-                                <li class="mx-5 nav-item">
-                                    <a class="nav-link text-white" href="#">PORTFOLIO</a>
-                                </li>
-                                <li class="mx-5 nav-item">
-                                    <a class="nav-link text-white" href="#">RESUME</a>
-                                </li>
-                                <li class="mx-5 nav-item">
-                                    <a class="nav-link text-white" href="#">ABOUT</a>
-                                </li>
-                                <li class="mx-5 nav-item">
-                                    <a class="nav-link text-white" href="#">CONTACT</a>
-                                </li>
-                            </ul>
+</head>
+<body>
+    <header>
+        <a href="#" class="name" style="text-decoration: none;">Dangeti Bhanu Sai Teja</a>
+            <nav >
+                <a href="#" class="active">Home</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio-videos">Videos</a>
+                <a href="#contact">Contact</a>
+            </nav>
+    </header>
+    <section class="home ms-0 mt-0 mb-0">
+        <div class="home-img">
+            <img  src="/images/saitej-novtel.JPG" width="450px" >
+        </div>
+        <div class="home-content">
+            <h1>Hi,<span> It's Bhanu </span></h1>
+            <h3 class="typing-text">Im a <span></span></h3>
+            <p class="fs-4 text-light">I am Bhanu Sai Teja, a recent graduate with a Bachelor of Technology in Computer Science Engineering from DLBC College, Vizag. I bring a strong foundation in web development and software engineering, supported by extensive knowledge and practical skills in building dynamic, responsive, and user-friendly web applications. Through various projects and internships, I have honed my expertise in front-end development with HTML, CSS, JavaScript, and Bootstrap, as well as back-end development using Node.js and MySQL. Additionally, I have experience in working with React for creating interactive web applications, and I am proficient in database management with MySQL and MongoDB. My skills also extend to mobile application development with Flutter, ensuring I can deliver comprehensive solutions across platforms.</p>
+        
+        <div class="social-icons">
+           
+            <a href="https://www.linkedin.com/in/saitejabhanu8" target="_blank">
+                <span class="bi bi-linkedin"></span>
+            </a>
+            <a href="https://github.com/saitejabhanu" target="_blank">
+                <span class="bi bi-github"></span>
+            </a>
+            <a href="https://www.instagram.com/sai_teja_bhanu/" target="_blank">
+                <span class="bi bi-instagram"></span>
+            </a>
+        </div>
+        <a href="#" class="btn fs-3 text-secondary">Hire Me</a>
+        <a id="downloadcv"href="/pdf/Dangeti_Bhanu_Sai_Teja_Resume.pdf" download="Dangeti_Bhanu_Sai_Teja_Resume.pdf" class="btn btn-primary">
+            Download CV
+        </a>
+       </div>
+    </section>
+    
+    <section id="skills" class="text-light">
+        <div class="container">
+            <h2 class="text-center fs-2 mb-4">My <span class="text-danger">Skills</span></h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card bg-dark text-light h-100 border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-4">Web Development</h5>
+                            <p class="card-text ">Proficient in building dynamic and responsive web applications using HTML5, CSS3, and JavaScript.</p>
                         </div>
                     </div>
-                </nav>
-            </header>
-
-            <div class="d-flex">
-                <div class="col-6"></div>
-                <div class="col-6" id="name">
-                    <div class="hello">Hello, I'm</div>
-                    <div class="bhanu">BHANU SAI TEJA</div>
-                    <div class="caption">THIS IS MY RESUME</div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card bg-dark text-light h-100 border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-4">Front-End Frameworks</h5>
+                            <p class="card-text ">Familiar with React for developing interactive user interfaces.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card bg-dark text-light h-100 border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-4">Back-End Development</h5>
+                            <p class="card-text ">Knowledgeable in Node.js for server-side programming and MySQL for database management.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card bg-dark text-light h-100 border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-4">Database Management</h5>
+                            <p class="card-text ">Experienced in using MongoDB for NoSQL database management.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card bg-dark text-light h-100 border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-4">Mobile App Development</h5>
+                            <p class="card-text ">Proficient in creating mobile applications using Flutter.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card bg-dark text-light h-100 border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-4">SEO</h5>
+                            <p class="card-text">Entry-level understanding of search engine optimization principles.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card bg-dark text-light h-100 border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-4">Video Editing</h5>
+                            <p class="card-text ">Skilled in using CapCut, VN, and Lightroom for creating high-quality visual content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card bg-dark text-light h-100 border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-4">Version Control</h5>
+                            <p class="card-text">Familiar with Git for version control and collaboration on projects.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card bg-dark text-light h-100 border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-4">APIs</h5>
+                            <p class="card-text">Basic understanding of working with RESTful APIs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card bg-dark text-light h-100 border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-4">Python Programming</h5>
+                            <p class="card-text ">Experienced in Python for various applications..</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </main>
-
-        <main class="row-2">
-            <div class="text-light" id="port">Featured <span>Portfolio</span></div>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <ul class="nav nav-tabs" id="port-nav">
-                        <li class="nav-item text-light mx-5"><a class="nav-link active" href="#all" data-bs-toggle="tab">All</a></li>
-                        <li class="nav-item text-light mx-5"><a class="nav-link " href="">Web Designs</a></li>
-                        <li class="nav-item text-light mx-5"><a class="nav-link " href="">Videography</a></li>
-                        <li class="nav-item text-light mx-5"><a class="nav-link " href="">Photogrpahy</a></li>
-                    </ul>
-                </div>
-                
-            </nav>
-            <div class="tab-content p-5">
-                <div class="tab-pane show fade active" id="all">
-                        <video autoplay muted loop class="background-video position-relative me-4" width="500" height="400">
-                            <source src="./videos/video-1.mp4" type="video/mp4">
-                          </video>  
-
-                          <video autoplay muted loop class="background-video position-relative me-4" width="500" height="400">
-                            <source src="./videos/video-2.mp4" type="video/mp4">
-                          </video>  
-
-                          <video autoplay loop  muted class="background-video position-relative me-4" width="500" height="400">
-                            <source src="./videos/video-3.mp4" type="video/mp4">
-                          </video>
-                          
-                          <video autoplay loop  muted class="background-video position-relative me-4" width="500" height="400"></video>
-                            <source src="./videos/video-4.mp4" type="video/mp4">
-                          </video>
-
-                          <video autoplay loop muted class="background-video position-relative me-4" width="500" height="400">
-                            <source src="./videos/video-5.mp4" type="video/mp4">
-                          </video> 
-                </div>
-            </div>
-        </main>
-
+        </div>
+    </section>
+    
+    
+    <section id="education">
         <main class="row-3">
-            <div class="resume text-light">My <span>Resume</span></div>
+            <div class="resume text-light text-center fs-1">My <span>Resume</span></div>
             <div class="d-flex">
                 <div class="col-6 text-light p-4">
                     <h3>Education</h3>
 
-                    <div class="card border-0 p-3 text-light" id="ed-1">
+                    <div class="card border-0 p-3 text-light bg-dark ed-1">
                         <div class="card-header border-0">
                             <div><span class="bi bi-calendar"> 2020-2024</span></div>
                         </div>
                         <div class="card-body border-0">
-                            <div class="card-title">
+                            <div class="card-title text-light">
                                 Bachelor of Technology (B.Tech) in Computer Science and
                                 Engineering
                             </div>
@@ -119,7 +170,7 @@
                     </div>
 
 
-                    <div class="card border-0 w-100 p-4 text-light mt-4" id="ed-1">
+                    <div class="card border-0 w-100 p-4 text-light mt-4 bg-dark ed-1" id="ed-1">
                         <div class="card-header border-0">
                             <div><span class="bi bi-calendar"> 2018 - 20204</span></div>
 
@@ -144,7 +195,7 @@
                     </div>
 
 
-                    <div class="card border-0 w-100 p-4 text-light mt-4" id="ed-1">
+                    <div class="card border-0 w-100 p-4 text-light mt-4 bg-dark ed-1" id="ed-1">
                         <div class="card-header border-0">
                             <div><span class="bi bi-calendar"> 2016 - 2018</span></div>
 
@@ -172,7 +223,7 @@
                     <h3>Experience</h3>
 
 
-                    <div class="card border-0 w-100 p-4 text-light mt-4" id="ed-1">
+                    <div class="card border-0 w-100 p-4 text-light mt-4 bg-dark ed-1" id="ed-1">
                         <div class="card-header border-0">
                             <div><span class="bi bi-calendar"> 8 WEEKS</span></div>
 
@@ -197,145 +248,173 @@
                             </div>
 
                         </div>
+                        
                     </div>
-                </div>
-
-            </div>
-            </div>
-        </main>
-
-
-        <main class="row-4">
-
-            <div class="d-flex p-4">
-                <div class="col-6 text-white" class="ps-3">
-                    <img src="./images/bhanu1.jpg" width="700">
-
-                </div>
-
-                <div class="col-6 text-white">
-                    <div class="fs-3 text-center ">About <span class="fw-bold">ME</span></div>
-                    <div class="aboutme p-2 me-4 fs-4">I am Bhanu Sai Teja As a recent graduate with a Bachelor of
-                        Technology in Computer Science Engineering from DLBC College, Vizag, I bring a strong foundation
-                        in web development and software engineering. My academic journey has provided me with extensive
-                        knowledge and practical skills in building dynamic, responsive, and user-friendly web
-                        applications. Through various projects and internships, I have honed my expertise in front-end
-                        and back-end development, working with technologies such as HTML, CSS, JavaScript, React, and
-                        Node.js
-                        <div class="d-flex mt-5">
-                            <button id="hireme" class="btn btn-light rounded rounded-4 mx-3 border-0">HIRE ME</button>
-                            <button id="cv" class="btn btn-light rounded rounded-4 border-0">DOWNLOAD CV</button>
+                    <div class="card border-0 w-100 p-4 text-light mt-4 bg-dark ed-1" id="ed-2">
+                        <div class="card-header border-0">
+                            <div><span class="bi bi-calendar"> 6 WEEKS</span></div>
                         </div>
-
+                        <div class="card-body border-0">
+                            <div class="card-title">Figma UI/UX Design Project</div>
+                            <div class="intern">
+                                During my internship at college, I collaborated with fellow classmates on a UI/UX design project using 
+                                Figma. The goal was to create an intuitive and engaging interface for a web application. 
+                                I participated in brainstorming sessions, wireframing, and prototyping, ensuring the design met user needs.
+                                This experience enhanced my skills in design principles, color theory, and user experience, resulting in 
+                                a polished final design that effectively addressed the project requirements.
+                            </div>
+                            <div class="card-footer border-0">
+                                <div>Internship at College</div>
+                            </div>
+                        </div>
                     </div>
-
+                    
                 </div>
+
+            </div>
             </div>
         </main>
-
-
-        <main class="row-5">
-            <div class="text-light fs-3 text-center">My<span class="fw-bold"> Services</span></div>
-
-            <div class="d-flex p-4">
-
-                <div class="col-4 text-light">
-                    <div class="card  border-0 me-4 h-100" id="card-1">
-                        <div class="card-header text-center text-light"><img src="./images/card1-web.png"
-                                width="200"></div>
-                        <div class="card-body text-center text-light">
-                            <div>Web Design</div>
-                            <div class="card1-p">
+    </section>
+    <section id="services">
+        <main class="container my-5">
+            <div class="text-light fs-3 text-center mb-4">My <span class="fw-bold">Services</span></div>
+            <div class="row">
+                <div class="col-md-4 text-light mb-4">
+                    <div class="card border-0 h-100 bg-dark" id="card-1">
+                        <div class="card-body text-center">
+                            <h3 class="text-light">Web Design</h3>
+                            <div class="card1-p ">
                                 I bring a strong foundation in web development and software engineering. My academic
                                 journey has provided me with extensive knowledge and practical skills in building
                                 dynamic, responsive, and user-friendly web applications. Through various projects and
                                 internships, I have honed my expertise in front-end and back-end development, working
-                                with technologies such as HTML, CSS, JavaScript, React, and Node.js
+                                with technologies such as HTML, CSS, JavaScript, React, and Node.js.
                             </div>
-                            <div class="mt-5">Learn More<span class="bi bi-chevron-right "></span></div>
+                            <div class="mt-5 text-light">Learn More <span class="bi bi-chevron-right"></span></div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-4 text-light">
-                    <div class="card  border-0 me-4 h-100" id="card-2">
-                        <div class="card-header text-center text-light"><img src="./images/card2-seo.png"
-                                width="200"></div>
-                        <div class="card-body text-center text-light">
-                            <div>Search Engine Optimization</div>
-                            <div class="card1-p">
+    
+                <div class="col-md-4 text-light mb-4">
+                    <div class="card border-0 h-100 bg-dark" id="card-2">
+                        <div class="card-body text-center">
+                            <h3 class="text-light">Search Engine Optimization</h3>
+                            <div class="card1-p text-justify">
                                 Entry-level SEO Specialist with a strong foundation in search engine optimization
                                 principles and practices. Completed coursework and hands-on projects in keyword
                                 research, on-page and off-page SEO, and content optimization. Familiar with tools like
                                 Google Analytics and SEMrush through academic training and personal projects. Eager to
                                 apply my knowledge and enthusiasm to drive organic traffic and enhance online visibility
-                                for a dynamic organization.</div>
-                            <div class="mt-5">Learn More<span class="bi bi-chevron-right "></span></div>
+                                for a dynamic organization.
+                            </div>
+                            <div class="mt-5 text-light">Learn More <span class="bi bi-chevron-right"></span></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4 text-light">
-                    <div class="card  border-0 me-4 h-100" id="card-3">
-                        <div class="card-header text-center text-light"><img src="./images/card3-editing.png"
-                                width="200"></div>
-                        <div class="card-body text-center text-light">
-                            <div>Video Editing</div>
-                            <div class="card1-p">
-                                Creative individual skilled in video and photo editing using CapCut, VN, and Lightroom.
-                                Experienced in producing high-quality content and enhancing visual appeal for various
-                                projects. </div>
-                            <div id="card3-foot">Learn More<span class="bi bi-chevron-right "></span></div>
+    
+                <div class="col-md-4 text-light mb-4">
+                    <div class="card border-0 h-100 bg-dark" id="card-3">
+                        <div class="card-body text-center">
+                            <h3 class="text-light">Video Editing & Videography</h3>
+                            <div class="card1-p ">
+                                I am a creative professional skilled in video and photo editing using CapCut, VN, and Lightroom. I specialize in producing high-quality content and enhancing visual appeal for various projects. My expertise includes dynamic editing, color grading, and visual storytelling, ensuring each project resonates with its audience. Whether for social media or promotional content, I deliver stunning visuals that leave a lasting impression.
+                            </div>
+                            <div class="mt-5 text-light">Learn More <span class="bi bi-chevron-right"></span></div>
                         </div>
                     </div>
                 </div>
             </div>
-
-        </main>
-
-
-        <main class="row-6">
-            <div class="text-light fs-3 text-center">Get in <span class="fw-bold">Touch</span></div>
-            <div class="d-flex p-5">
-                <div class="col-6 text-light">
-                    <div class="fw-bold fs-4 ms-4">Get in Touch</div>
-                    <form class="p-3">
-                        <div><input type="text" placeholder="Your Name" class="form-control border-0"></div>
-                        <div><input type="mail" placeholder="Your Mail" class="form-control  border-0"></div>
-                        <div><input type="number" placeholder="Your Phone" class="form-control  border-0"></div>
-                        <div><textarea  placeholder="Write a Message" class="form-control  border-0"></textarea></div>
-
-                    </form>
-                    <button class="btn rounded rounded-pill border-0 text-light p-3 ms-3" id="send">Send Message</button>
-                </div>
-                <div class="col-6 text-light ">
-                    <div class="fw-bold fs-4">My Contact Details</div>
-                    <div class="p-4">
-                            <div class="fs-4">Email</div>
-                            <div class="mb-4"><a href="mailto:bhanusaiteja8@gmail.com">bhanusaiteja8@gmail.com</a></div>
-                            <div class="fs-4">Phone</div>
-                            <div class="mb-4"><a href="tel:7036337799">7036337799</a></div>
-                            <div class="fs-4">Address</div>
-                            <div>10-101,Rajahmundry</div>
-                            <div></div>
-                            <div></div>
-                    </div>
-                </div>
-            </div>
-
         </main>
     </section>
-    <footer class="row-7">
-        <div class="text-light text-center fs-6">Copyright © 2024 All rights reserved | This template is made by<span id="sai" class="fw-bold"> Sai Teja Bhanu</span></div>
 
-        <div class="text-light d-flex p-2 justify-content-center mt-5">
-            <a href=""><div class="bi bi-linkedin mx-2"></div></a>
-            <a href="https://github.com/saitejabhanu"><div class="bi bi-github mx-2"></div></a>
-            <div ><a href="https://www.instagram.com/sai_teja_bhanu/?locale=fr" class="bi bi-instagram mx-2"></a></div>
+    <section id="portfolio-videos" class="video-section">
+        <div class="row justify-content-center g-4">
+            <h2 class="text-center text-light">My <span class="text-danger">Videos</span></h2>
+            <div class="col-lg-4 col-md-6">
+                <video autoplay muted loop preload="none" class="video-item" poster="thumbnail1.jpg">
+                    <source src="../videos/portfolio-vid-1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <video autoplay muted loop preload="none" class="video-item" poster="thumbnail2.jpg">
+                    <source src="../videos/portfolio-video-2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <video autoplay muted loop preload="none" class="video-item" poster="thumbnail3.jpg">
+                    <source src="../videos/portfolio-video-3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+    
+            <!-- Second Row -->
+            <div class="col-lg-4 col-md-6">
+                <video autoplay muted loop preload="none" class="video-item" poster="thumbnail4.jpg">
+                    <source src="../videos/portfolio-video-4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <video autoplay muted loop preload="none" class="video-item" poster="thumbnail5.jpg">
+                    <source src="../videos/portfolio-video-5.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <video autoplay muted loop preload="none" class="video-item" poster="thumbnail6.jpg">
+                    <source src="../videos/portfolio-video-6.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
         </div>
+    </section>
+    
+    
+    
+    
+    </section>
+    <section id="contact">
+        <main class="container my-5">
+            <div class="text-light fs-3 text-center mb-4">Get in <span class="fw-bold">Touch</span></div>
+            <div class="row">
+                <div class="col-md-6 text-light mb-4">
+                    <div class="fw-bold fs-4 ms-4">Get in Touch</div>
+                    <form class="p-3 ed-1">
+                        <div class="mb-3">
+                            <input type="text" placeholder="Your Name" class="form-control border-0" style="background-color: rgb(78, 78, 78); height: 50px;">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" placeholder="Your Mail" class="form-control border-0" style="background-color: rgb(78, 78, 78); height: 50px;">
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" placeholder="Your Phone" class="form-control border-0" style="background-color: rgb(78, 78, 78); height: 50px;">
+                        </div>
+                        <div class="mb-3">
+                            <textarea placeholder="Write a Message" class="form-control border-0" style="background-color: rgb(78, 78, 78); height: 100px;"></textarea>
+                        </div>
+                        <button type="submit" class="btn rounded rounded-pill border-0 text-light p-3 ms-3" id="send">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6 text-light mb-4">
+                    <div class="fw-bold fs-4">My Contact Details</div>
+                    <div class="p-4 ed-1">
+                        <div class="fs-4">Email</div>
+                        <div class="mb-4"><a href="mailto:bhanusaiteja8@gmail.com" class="text-light">bhanusaiteja8@gmail.com</a></div>
+                        <div class="fs-4">Phone</div>
+                        <div class="mb-4"><a href="tel:7036337799" class="text-light">7036337799</a></div>
+                        <div class="fs-4">Address</div>
+                        <div>10-101, Rajahmundry</div>
+                    </div>
+                </div>
+            </div>
+        </main>        
+    </section>
+    <footer class="row-7">
+        <div class="text-light text-center  ed-1">Copyright © 2024 All rights reserved | This website is made by<span id="sai" class="fw-bold"> Sai Teja Bhanu</span></div>
     </footer>
-
 
     
 </body>
-
 </html>
