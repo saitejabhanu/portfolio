@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    
+    <link rel="stylesheet" href="css/naresh-login.css">
+</head>
+<body class="container-fluid">
+    <div class="row">
+        <div class="col-12 fs-2  text-center p-5" id="title">Naresh Institute and Technologies</div>
+    </div>
+    <header class="row">
+        <div class="navbar navbar-expand-lg">
+            <div class="container-fluid d-flex p-2">
+                <div>
+                    <button class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#navs">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+              <div class="collapse navbar-collapse justify-content-between " id="navs">
+                <ul class="navbar-nav mx-5 fw-bold">
+                    <li class="nav-item"><a class="nav-link bi bi-house-door-fill text-light" href="index.html"> Home</a></li>
+                    
+                    <li class="nav-item"><a class="nav-link bi bi-archive text-light" href="naresh-about.html"> About</a></li>
+                    
+                    <li class="nav-item"><a class="nav-link bi bi-house-door-fill text-light" href="naresh-services.html"> Service</a></li>
+                    
+                    <li class="nav-item"><a class="nav-link bi bi-phone-fill text-light" href="naresh-contact.html"> Contact Us</a></li>
+
+                </ul>
+
+                <div class="dropdown margin-signin">
+                    <button class="dropdown-toggle btn btn-dark sigin-btn" data-bs-toggle="dropdown"><span class="bi bi-box-arrow-in-right"></span> Sign In</span></button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"><a class="dropdown-link"><span class="bi bi-box-arrow-in-right "></span> Sign in</a></li>
+                        <li class="dropdown-item"><a class="dropdown-link" href="naresh-signup.html"><span class="bi bi-person-plus-fill"></span> Sign Up</a></li>
+                        <li class="dropdown-item"><a class="dropdown-link" href="naresh-change.html"><span class="bi bi-lock-fill"></span> Change Password</a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+    </header>
+    
+    
+    <div class="body-custom">
+        <div class="text-dark custom-blur p-2 rounded rounded-4">
+            <h3 class="p-5">Please Login  your account</h3>
+            <div class="p-5">
+             <form class="align-content-center  w-100">
+                 <h6 class="">Username or Email</h6>
+                 <input type="text" class="form-control  mb-3">
+                 
+                 <h6 class="text-light-emphasis">Password</h6>
+                 <input type="password" class="form-control ">
+    
+                <div class="text-center"> <button class="btn btn-dark rounded rounded-pill w-100 mt-5 fw-bold">Sign in</button></div>
+                 <div id="signup" class="mt-4 ms-5 text-secondary fw-bold">Don't have an account? &nbsp;<a href="">Sign up</a></div>
+             </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

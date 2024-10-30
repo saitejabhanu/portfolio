@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Content Security Policy -->
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/naresh-about.css">
+</head>
+<body class="container-fluid">
+    <div class="row">
+        <div class="col-12 fs-2  text-center p-5" id="title">Naresh Institute and Technologies</div>
+    </div>
+    <header class="row">
+        <div class="navbar navbar-expand-lg">
+            <div class="container-fluid d-flex p-2">
+                <div>
+                    <button class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#navs">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+              <div class="collapse navbar-collapse justify-content-between " id="navs">
+                <ul class="navbar-nav mx-5 fw-bold">
+                    <li class="nav-item"><a class="nav-link bi bi-house-door-fill text-light" href="index.html"> Home</a></li>
+                    
+                    <li class="nav-item"><a class="nav-link bi bi-archive text-light" href="naresh-about.html" id="about"> About</a></li>
+                    
+                    <li class="nav-item"><a class="nav-link bi bi-house-door-fill text-light" href="naresh-services.html"> Service</a></li>
+                    
+                    <li class="nav-item"><a class="nav-link bi bi-phone-fill text-light" href="naresh-contact.html"> Contact Us</a></li>
+
+                </ul>
+
+                <div class="dropdown margin-signin">
+                    <button class="dropdown-toggle btn btn-dark sigin-btn" data-bs-toggle="dropdown"><span class="bi bi-box-arrow-in-right"></span> Sign In</span></button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"><a class="dropdown-link"><span class="bi bi-box-arrow-in-right "></span> Sign in</a></li>
+                        <li class="dropdown-item"><a class="dropdown-link" href="naresh-signup.html"><span class="bi bi-person-plus-fill"></span> Sign Up</a></li>
+                        <li class="dropdown-item"><a class="dropdown-link"><span class="bi bi-lock-fill"></span> Change Password</a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+    </header>
+    
+    
+
+            <div class="text-center fw-bold p-3">Details</div>
+            <div>
+                <table class="table table-hover p-3">
+                    <tr class="">
+                        <th>Id</th>
+                        <th>Course Name</th>
+                        <th>Faculty Name
+                        </th>
+                        <th>Duration
+                        </th>
+                        <th>Timings
+                        </th>
+                        <th>View
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Angular 8</td>
+                        <td>Sudhakar sharma sir</td>
+                        <td>45 days</td>
+                        <td>07:30 AM</td>
+                        <td>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pops"> View&nbsp;<span class="bi bi-eye-fill"></span></button>
+                            <div class="modal" id="pops">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <div class="fw-bold fs-4">Details</div><button class="btn btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body p-4">
+                                            <div> Course:Angular 8 </div> 
+                                            <div>Faculty:Sudhakar sharma sir</div>     
+                                            <div>Durations:45 days</div>  
+                                            <div>Timings:07:30 AM</div>   
+                                            <div>Description:Angular 8 is a client-side TypeScript based framework which is used to create dynamic web applications. It is very similar to its previous versions except having some extensive features.</div>                              
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn" data-bs-dismiss="modal"> Close</button>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Node Js</td>
+                        <td>Samba sir</td>
+                        <td>45 days</td>
+                        <td>9:00 AM</td>
+                        <td>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pops"> View&nbsp;<span class="bi bi-eye-fill"></span></button>
+                            <div class="modal" id="pops">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <div class="fw-bold fs-4">Details</div><button class="btn btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body p-4">
+                                            <div> Course:Angular 8 </div> 
+                                            <div>Faculty:Sudhakar sharma sir</div>     
+                                            <div>Durations:45 days</div>  
+                                            <div>Timings:07:30 AM</div>   
+                                            <div>Description:Angular 8 is a client-side TypeScript based framework which is used to create dynamic web applications. It is very similar to its previous versions except having some extensive features.</div>                              
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn" data-bs-dismiss="modal"> Close</button>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </td>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Java</td>
+                        <td>Hari krishna sir</td>
+                        <td>60 days</td>
+                        <td>4:30 PM</td>
+                        <td>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pops"> View&nbsp;<span class="bi bi-eye-fill"></span></button>
+                            <div class="modal" id="pops">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <div class="fw-bold fs-4">Details</div><button class="btn btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body p-4">
+                                            <div> Course:Angular 8 </div> 
+                                            <div>Faculty:Sudhakar sharma sir</div>     
+                                            <div>Durations:45 days</div>  
+                                            <div>Timings:07:30 AM</div>   
+                                            <div>Description:Angular 8 is a client-side TypeScript based framework which is used to create dynamic web applications. It is very similar to its previous versions except having some extensive features.</div>                              
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn" data-bs-dismiss="modal"> Close</button>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </td>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+</body>
+</html>

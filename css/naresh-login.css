@@ -1,0 +1,36 @@
+
+        .body-custom{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        body{
+            background-image: url(/images/login.jpg);
+            height: 100vh;
+        }
+        .custom-blur{
+            backdrop-filter: blur(30px);
+        }
+        .margin-signin {
+           margin-right: 100px;
+        }
+        .dropdown-menu li a{
+            text-decoration: none;
+            color: rgba(14, 13, 13, 0.8);
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        header a{
+            color: white;
+        }
+        .row{
+            
+            backdrop-filter: blur(5px);
+
+        }
+        #title{
+            color: rgba(254, 223, 212, 0.8);
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 40px rgb(38, 31, 29);
+        }
